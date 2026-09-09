@@ -552,6 +552,18 @@ footer {
     .focus-container {
         grid-template-columns: 1fr;
     }
+    .projects-container {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 15px;
+    }
+
+    .project-card {
+        min-width: 85%;
+        scroll-snap-align: center;
+    }
 
 }
 
