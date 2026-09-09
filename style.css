@@ -386,6 +386,7 @@ h1 {
 
     font-size: 15px;
 }
+
 /* =========================
    PROJECTS
 ========================= */
@@ -401,32 +402,34 @@ h1 {
     padding: 30px;
     border-radius: 20px;
     border: 1px solid #1E3A5F;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-8px);
     border-color: #38BDF8;
-    box-shadow: 0 15px 40px rgba(56, 189, 248, 0.12);
+    box-shadow: 0 15px 40px rgba(56, 189, 248, 0.15);
 }
 
 .project-number {
     color: #38BDF8;
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .project-card h3 {
     color: #ffffff;
-    font-size: 21px;
-    margin-bottom: 18px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .project-card p {
     color: #B5C2D3;
     font-size: 14px;
-    margin-bottom: 25px;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
 
 .project-tech {
@@ -443,7 +446,6 @@ h1 {
     border-radius: 20px;
     font-size: 12px;
 }
-
 /* =========================
    CONTACT
 ========================= */
